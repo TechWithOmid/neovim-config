@@ -24,7 +24,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
             
       - Arch:
       ```bash
-      sudo pacman -S neovim
+      sudo pacman -S xsel
       ```
 4. npm :
       - Ubuntu:
