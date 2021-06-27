@@ -63,3 +63,9 @@ TAB in general mode will move to text buffer SHIFT-TAB will go back
 Use ctrl+s => save (:w) | ctrl+Q save and quite(:wq!)
 
 Use control-c instead of escape
+
+## Coc extensions
+:CocInstall coc-json coc-python coc-snippets coc-vimlsp 
+
+## TODO
+- [  ] create bash script to automate the installation
