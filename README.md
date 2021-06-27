@@ -65,7 +65,11 @@ Use ctrl+s => save (:w) | ctrl+Q save and quite(:wq!)
 Use control-c instead of escape
 
 ## Coc extensions
-:CocInstall coc-json coc-python coc-snippets coc-vimlsp 
+you can install extensions with :CocInstall extension-name.
+here is all of extentions that I user for this setup.
+
+:CocInstall coc-json coc-python coc-snippets coc-vimlsp coc-explorer
 
 ## TODO
 - [  ] create bash script to automate the installation
+- [  ] add markdown preview to nvim
