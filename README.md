@@ -1,7 +1,7 @@
 
 # Installation guide
 this is my neovim config for Python/Django and Javascript development.
-## Requirments
+## Setup
 1. neovim
     - ubuntu:
         ```bash 
@@ -41,6 +41,49 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 ```bash
 pip install pynvim
 npm i -g neovim
+```
+
+6. ranger:
+first of all install ranger:
+    - Ubuntu:
+    ```bash
+    sudo apt install ranger
+    ```
+    - Arch:
+    ```bash
+    sudo pacman -S ranger
+    ```
+instll rnger devicons:
+```bash
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+```
+* You can now add default_linemode devicons to your rc.conf *
+
+Install Ueberzug(use for preview images in ranger):
+    - Ubuntu (Note you may experience your images being badly placed this is because pip doesn't have the newest version of ueberzug, if you find this issue please install from source)
+    ```bash
+    pip install ueberzug
+    ```
+    - Arch:
+    ```bash
+    yay -S python-ueberzug-git
+    ```
+Ranger config file:
+make sure you create a ranger config file and at least add the following lines
+```bash
+mkdir ~/.config/ranger
+
+touch ~/.config/ranger/rc.conf
+```
+
+Add this configuration to rc.conf
+
+```bash
+set preview_images_method ueberzug
+
+default_linemode devicons
+
+set show_hidden true
 ```
 
 ## shortcuts
