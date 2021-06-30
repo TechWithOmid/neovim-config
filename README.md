@@ -116,3 +116,4 @@ here is all of extentions that I user for this setup.
 ## TODO
 - [  ] create bash script to automate the installation
 - [  ] add markdown preview to nvim
+- [  ] put the plugin shortcuts in plug-config in keys file
