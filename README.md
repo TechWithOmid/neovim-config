@@ -113,7 +113,14 @@ here is all of extentions that I user for this setup.
 
 :CocInstall coc-json coc-python coc-snippets coc-vimlsp coc-explorer
 
+## Emmet
+my command to trigger the Emmet’s magic is: ,, (comma comma) , simple and close to the fingers!
+
+checkout this [link](https://alldrops.info/posts/vim-drops/2018-08-21_become-a-html-ninja-with-emmet-for-vim/) for learn how to use this amazing feature.
+
+
 ## TODO
 - [  ] create bash script to automate the installation
 - [  ] add markdown preview to nvim
 - [  ] put the plugin shortcuts in plug-config in keys file
+- [  ] add more information about emmet plugin

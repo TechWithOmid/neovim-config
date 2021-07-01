@@ -37,5 +37,13 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
+" html auto close tag
+autocmd FileType xml,html inoremap </ </<C-x><C-o>
+
+" html autoclose tag
+autocmd FileType xml,html inoremap </ </<C-x><C-o>
+
+" emmet config
+let g:user_emmet_leader_key=',' " redefine trigger key
 " You can't stop me
 cmap w!! w !sudo tee %
