@@ -1,4 +1,3 @@
-
 # neovim config guide
 this is my neovim config for Python/Django and Javascript development.
 
@@ -112,10 +111,10 @@ Use control-c instead of escape
 ### Coc extensions
 you can install extensions with `:CocInstall extension-name`.
 
-here is all of extentions that I user for this setup.
+here is all of extentions that I use for this setup. but you can add any plugin you want to this list.
 
 ```bash
-:CocInstall coc-json coc-python coc-snippets coc-vimlsp coc-explorer
+:CocInstall coc-json coc-python coc-snippets coc-vimlsp coc-explorer coc-tsserver coc-html coc-css
 ```
 [Coc documentation](https://github.com/neoclide/coc.nvim)
 
@@ -126,9 +125,18 @@ my command to trigger the Emmet’s magic is: ,, (comma comma) , simple and clos
 
 checkout this [link](https://alldrops.info/posts/vim-drops/2018-08-21_become-a-html-ninja-with-emmet-for-vim/) for learn how to use this amazing feature.
 
+---
+
+### MarkdownPreview
+I use markdown-preview plugin for preview markdown in neovim and it's work really well.
+
+use `:MarkdownPreview` or `Space + m` to see the preview in your default browser.
+
+more information about [markdown-preview plugin](https://github.com/iamcco/markdown-preview.nvim
+).
 
 ## TODO
 - [ ] create bash script to automate the installation
-- [ ] add markdown preview to nvim
+- [x] add markdown preview to nvim
 - [ ] put the plugin shortcuts in plug-config in keys file
 - [ ] add more information about emmet plugin

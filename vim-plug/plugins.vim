@@ -30,4 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " emmet
     Plug 'mattn/emmet-vim' 
 
+    " markdown 
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+
 call plug#end()
