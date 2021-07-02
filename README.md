@@ -121,9 +121,30 @@ here is all of extentions that I use for this setup. but you can add any plugin 
 ---
 
 ### Emmet
-my command to trigger the Emmet’s magic is: ,, (comma comma) , simple and close to the fingers!
 
-checkout this [link](https://alldrops.info/posts/vim-drops/2018-08-21_become-a-html-ninja-with-emmet-for-vim/) for learn how to use this amazing feature.
+my command to trigger the Emmet’s magic is: `,,` (comma comma) , simple and close to the fingers!
+
+examples:
+
+type `html:5` in INSERT mode then press comma two time `,,` like this gif
+![](emmet-1.gif)
+
+also you can create tags like `div` or custome tag like `myname` like this gif
+![](emmet-2.gif)
+
+let’s add a `<div>` with a `<p>` inside, that contains a link `<a href="">` for this example we use `>` operator so just type `div>p>a` and `,,` see this gif
+![](emmet-3.gif)
+
+You can define html attributes to the elements using the same convention used by CSS.
+
+Let’s try with the previous example, adding a `.container` class to the `<div>`, a `#foo` id to the `<p>` tag.
+type `div.container>p#foo>a` and `,,`
+![](emmet-4.gif)
+
+Let’s say you want a <div> with 5 `<p>` inside of it, just go with `div>p*5`:
+![](emmet-5.gif)
+
+also if you want more information check this [link](https://github.com/mattn/emmet-vim).
 
 ---
 
@@ -137,6 +158,6 @@ more information about [markdown-preview plugin](https://github.com/iamcco/markd
 
 ## TODO
 - [ ] create bash script to automate the installation
-- [x] add markdown preview to nvim
 - [ ] put the plugin shortcuts in plug-config in keys file
-- [ ] add more information about emmet plugin
+- [x] add more information about emmet plugin
+- [x] add markdown preview to nvim
