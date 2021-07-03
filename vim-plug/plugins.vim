@@ -33,4 +33,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " markdown 
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
+    " fzf
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+
 call plug#end()
