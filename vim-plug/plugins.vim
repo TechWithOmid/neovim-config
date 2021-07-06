@@ -13,6 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      
      " Auto pairs for '(' '[' '{'
      Plug 'jiangmiao/auto-pairs'
+     Plug 'junegunn/rainbow_parentheses.vim'
      
      " theme
      Plug 'joshdick/onedark.vim'
