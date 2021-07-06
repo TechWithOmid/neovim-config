@@ -154,7 +154,7 @@ also if you want more information check this [link](https://github.com/mattn/emm
 ### MarkdownPreview
 I use markdown-preview plugin for preview markdown in neovim and it's work really well.
 
-use `:MarkdownPreview` or `Space + m` to see the preview in your default browser.
+use `:MarkdownPreview` or `Space + p` to see the preview in your default browser.
 
 more information about [markdown-preview plugin](https://github.com/iamcco/markdown-preview.nvim
 ).
