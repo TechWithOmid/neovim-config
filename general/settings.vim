@@ -1,5 +1,6 @@
 " set leader key
-let g:mapleader = '\<Space>'
+" let g:mapleader = '\<Space>'
+let mapleader="\<Space>"
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
@@ -43,7 +44,5 @@ autocmd FileType xml,html inoremap </ </<C-x><C-o>
 " html autoclose tag
 autocmd FileType xml,html inoremap </ </<C-x><C-o>
 
-" emmet config
-let g:user_emmet_leader_key=',' " redefine trigger key
 " You can't stop me
 cmap w!! w !sudo tee %

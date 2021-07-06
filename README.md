@@ -98,11 +98,14 @@ Use alt + hjkl to resize windows
 
 Use ctrl + hjkl to navigate windows
 
-Easy CAPS => user ctrl+u over word for make it Uppercase
+user ctrl+u over word for make it Uppercase
 
 TAB in general mode will move to next buffer SHIFT-TAB will go back
 
-Use ctrl+s => save (:w) | ctrl+Q save and quite(:wq!)
+alternative save&quit:
+
+    Use ctrl+s => save (:w) 
+    ctrl+Q save and quite(:wq!)
 
 Use control-c instead of escape
 
@@ -157,6 +160,7 @@ more information about [markdown-preview plugin](https://github.com/iamcco/markd
 ).
 
 ## TODO
+- [ ] make the shortcuts guide cleaner 
 - [ ] create bash script to automate the installation
 - [ ] put the plugin shortcuts in plug-config in keys file
 - [x] add more information about emmet plugin
