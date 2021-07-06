@@ -173,11 +173,16 @@ more information about [markdown-preview plugin](https://github.com/iamcco/markd
 ### FZF
 FZF is awesome tool for use inside neovim and It's much much more faster than ranger and coc-explorer. here is shortcuts and fzf commands.
 
-use `leader-f` to open `:Files` where you can search for your files.
-`leader-b` or `:Buffers` for search in your open buffer.
-`leader-g` or `:Rg` search for mach result in files content and file name.
-`leader-t` or `:Tags` search for Tags
-`leader-m` or `:Marks` search for marks
+* use `leader-f` to open `:Files` where you can search for your files.
+* `leader-b` or `:Buffers` for search in your open buffer.
+* `leader-g` or `:Rg` search for mach result in files content and file name.
+* `leader-t` or `:Tags` search for Tags
+* `leader-m` or `:Marks` search for marks
+
+also you can open files in split or new tab.
+* tab split : `ctrl-t`
+* split     : `ctrl-x`
+* vsplit    : `ctrl-v`
 
 
 ## TODO
