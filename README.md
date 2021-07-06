@@ -93,7 +93,17 @@ default_linemode devicons
 set show_hidden true
 ```
 
-## shortcuts
+7. fzf
+    - Ubuntu:
+    ```bash
+    sudo apt install fzf
+    ```
+    -Arch
+    ```bash
+    sudo pacman -S fzf
+    ```
+
+## general shortcuts
 Use alt + hjkl to resize windows
 
 Use ctrl + hjkl to navigate windows
@@ -102,10 +112,9 @@ user ctrl+u over word for make it Uppercase
 
 TAB in general mode will move to next buffer SHIFT-TAB will go back
 
-alternative save&quit:
-
-    Use ctrl+s => save (:w) 
-    ctrl+Q save and quite(:wq!)
+alternative save&quit :
+   - Use ctrl+s => save (:w) 
+   - ctrl+Q save and quite(:wq!)
 
 Use control-c instead of escape
 
@@ -154,10 +163,22 @@ also if you want more information check this [link](https://github.com/mattn/emm
 ### MarkdownPreview
 I use markdown-preview plugin for preview markdown in neovim and it's work really well.
 
-use `:MarkdownPreview` or `Space + p` to see the preview in your default browser.
+use `:MarkdownPreview` or `Space-p` to see the preview in your default browser.
 
 more information about [markdown-preview plugin](https://github.com/iamcco/markdown-preview.nvim
 ).
+
+---
+
+### FZF
+FZF is awesome tool for use inside neovim and It's much much more faster than ranger and coc-explorer. here is shortcuts and fzf commands.
+
+use `leader-f` to open `:Files` where you can search for your files.
+`leader-b` or `:Buffers` for search in your open buffer.
+`leader-g` or `:Rg` search for mach result in files content and file name.
+`leader-t` or `:Tags` search for Tags
+`leader-m` or `:Marks` search for marks
+
 
 ## TODO
 - [ ] make the shortcuts guide cleaner 
