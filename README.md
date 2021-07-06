@@ -186,6 +186,7 @@ also you can open files in split or new tab.
 
 
 ## TODO
+- [ ] fix signify conflit with line number
 - [ ] make the shortcuts guide cleaner 
 - [ ] add git integration
 - [ ] create bash script to automate the installation
