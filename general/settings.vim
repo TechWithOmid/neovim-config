@@ -1,5 +1,4 @@
 " set leader key
-" let g:mapleader = '\<Space>'
 let mapleader="\<Space>"
 
 syntax enable                           " Enables syntax highlighing
