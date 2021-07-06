@@ -182,7 +182,7 @@ use `leader-f` to open `:Files` where you can search for your files.
 
 ## TODO
 - [ ] make the shortcuts guide cleaner 
+- [ ] add git integration
 - [ ] create bash script to automate the installation
-- [ ] put the plugin shortcuts in plug-config in keys file
 - [x] add more information about emmet plugin
 - [x] add markdown preview to nvim
