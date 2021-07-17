@@ -14,7 +14,6 @@ let g:onedark_termcolors=256
 syntax on
 colorscheme onedark
 
-
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))
     set termguicolors

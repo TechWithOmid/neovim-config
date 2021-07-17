@@ -20,7 +20,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      
      " theme
      Plug 'joshdick/onedark.vim'
-     
+     Plug 'morhetz/gruvbox'    
+
      " intellisense
      Plug 'neoclide/coc.nvim', {'branch': 'release'}    
 
