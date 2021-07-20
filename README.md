@@ -120,15 +120,24 @@ Use control-c instead of escape
 
 
 ## Extenction config
-### Coc extensions
-you can install extensions with `:CocInstall extension-name`.
+### lsp
+Recently I switch lsp over coc, and here is some shortcuts and configuration of my lsp.
 
-here is all of extentions that I use for this setup. but you can add any plugin you want to this list.
+`gd`  go to definition.
 
-```bash
-:CocInstall coc-json coc-python coc-snippets coc-vimlsp coc-explorer coc-tsserver coc-html coc-css
-```
-[Coc documentation](https://github.com/neoclide/coc.nvim)
+`gD`  go to declaration.
+
+`gr`  go to references.
+
+`gi`  go to implementation.
+
+`K`   Hover and show more additional information.
+
+`C-n` go to next diagnostic.
+
+`C-p` go to previous diagnostic.
+
+also auto formate is active for '.py' '.js' '.jsx' files
 
 ---
 

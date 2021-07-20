@@ -21,9 +21,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      " theme
      Plug 'joshdick/onedark.vim'
      Plug 'morhetz/gruvbox'    
-
+     Plug 'Mofiqul/vscode.nvim'
+     Plug 'shaunsingh/nord.nvim'
+    
      " intellisense
-     Plug 'neoclide/coc.nvim', {'branch': 'release'}    
+     Plug 'neovim/nvim-lspconfig'
+     Plug 'hrsh7th/nvim-compe'
 
      " status bar 
      Plug 'vim-airline/vim-airline'
