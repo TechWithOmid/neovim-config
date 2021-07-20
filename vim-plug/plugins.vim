@@ -37,9 +37,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      " emmet
      Plug 'mattn/emmet-vim' 
 
-     " ranger
-     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
- 
+     " explorer
+     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} "ranger
+     Plug 'kyazdani42/nvim-tree.lua'
+     
      " fzf
      Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
      Plug 'junegunn/fzf.vim'
