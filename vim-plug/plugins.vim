@@ -23,28 +23,30 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      Plug 'morhetz/gruvbox'    
      Plug 'Mofiqul/vscode.nvim'
      Plug 'shaunsingh/nord.nvim'
-    
+     
+     " status bar 
+     Plug 'vim-airline/vim-airline'
+     Plug 'vim-airline/vim-airline-themes'
+     Plug 'kyazdani42/nvim-web-devicons'
+     Plug 'ryanoasis/vim-devicons'
+
      " intellisense
      Plug 'neovim/nvim-lspconfig'
      Plug 'hrsh7th/nvim-compe'
 
-     " status bar 
-     Plug 'vim-airline/vim-airline'
-     Plug 'vim-airline/vim-airline-themes'
-     
-     " ranger
-     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
- 
      " emmet
      Plug 'mattn/emmet-vim' 
- 
-     " markdown 
-     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+
+     " ranger
+     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
  
      " fzf
      Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
      Plug 'junegunn/fzf.vim'
      Plug 'airblade/vim-rooter'
+ 
+     " markdown 
+     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
      " git integration
      Plug 'mhinz/vim-signify'
