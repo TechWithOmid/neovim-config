@@ -9,8 +9,9 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
      " Better Syntax Support
-     Plug 'sheerun/vim-polyglot'
-     
+     " Plug 'sheerun/vim-polyglot'
+     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}    
+
      " Auto pairs for '(' '[' '{'
      Plug 'jiangmiao/auto-pairs'
      Plug 'junegunn/rainbow_parentheses.vim'

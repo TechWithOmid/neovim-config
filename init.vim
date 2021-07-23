@@ -23,6 +23,8 @@ source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
 
 " lua files
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/compe-config.lua
 luafile $HOME/.config/nvim/lua/lsp-lang/python-ls.lua
 luafile $HOME/.config/nvim/lua/lsp-lang/javascript-ls.lua
+luafile $HOME/.config/nvim/lua/lsp-lang/bash-ls.lua

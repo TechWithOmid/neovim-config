@@ -139,6 +139,8 @@ Recently I switch lsp over coc, and here is some shortcuts and configuration of 
 
 also auto formate is active for '.py' '.js' '.jsx' files
 
+for install language see this [link](https://github.com/neovim/nvim-lspconfig)
+
 ---
 
 ### Emmet
@@ -198,7 +200,6 @@ also you can open files in split or new tab.
 ### nvim-tree
 A File Explorer For Neovim Written In Lua.
 
-
 **keybindings**:
    - move around like in any vim buffer
    - `<CR>` or `o` on `..` will cd in the above directory
@@ -231,6 +232,15 @@ A File Explorer For Neovim Written In Lua.
    - Double right click acts like `<C-]>`
 
 more informtion about [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+
+---
+
+### Treesitter
+treesitter is parser for better syntax highlight and more things.
+you just need to install language you want just run this command:
+`:TSInstall <lang>`
+
+for more information see this [link](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## TODO
 - [ ] make the shortcuts guide cleaner 
