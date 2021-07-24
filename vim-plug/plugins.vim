@@ -28,6 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      " status bar 
      Plug 'vim-airline/vim-airline'
      Plug 'vim-airline/vim-airline-themes'
+
+     " icons
      Plug 'kyazdani42/nvim-web-devicons'
      Plug 'ryanoasis/vim-devicons'
 
@@ -42,10 +44,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} "ranger
      Plug 'kyazdani42/nvim-tree.lua'
      
+     " telescop
+     Plug 'nvim-lua/popup.nvim'
+     Plug 'nvim-lua/plenary.nvim'
+     Plug 'nvim-telescope/telescope.nvim'
+         
      " fzf
-     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-     Plug 'junegunn/fzf.vim'
-     Plug 'airblade/vim-rooter'
+     " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+     " Plug 'junegunn/fzf.vim'
+     " Plug 'airblade/vim-rooter'
  
      " markdown 
      Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}

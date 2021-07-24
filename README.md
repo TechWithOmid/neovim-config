@@ -182,6 +182,9 @@ more information about [markdown-preview plugin](https://github.com/iamcco/markd
 ---
 
 ### FZF
+fore use fzf in your neovim config first you need to uncomment the fzf config file and plugin in configs.
+first uncomment fzf part in plugin file then uncomment fzf config in explorer part of init.vim
+
 FZF is awesome tool for use inside neovim and It's much much more faster than ranger and coc-explorer. here is shortcuts and fzf commands.
 
 * use `leader-f` to open `:Files` where you can search for your files.
@@ -241,6 +244,18 @@ you just need to install language you want just run this command:
 `:TSInstall <lang>`
 
 for more information see this [link](https://github.com/nvim-treesitter/nvim-treesitter)
+
+---
+
+### telescop
+telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
+
+here is here is shortcuts I use. but you can see the telescope docs [here](https://github.com/nvim-telescope/telescope.nvim)
+
+find files use `leader` + `ff` or `:Telescope find_file`
+find live greps use `leader` + `fg` or `:Telescope live_grep`
+find buffers use `leader` + `fb` or `:Telescope buffers`
+hlp tags use `leader` + `fh` or `:Telescope help_tags`
 
 ## TODO
 - [ ] make the shortcuts guide cleaner 
