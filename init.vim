@@ -16,12 +16,15 @@ source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
 source $HOME/.config/nvim/plug-config/telescop.vim
-source $HOME/.config/nvim/plug-config/fzf.vim
+" source $HOME/.config/nvim/plug-config/fzf.vim
 
 " git integration
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
 source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
+
+" startify
+source $HOME/.config/nvim/plug-config/startify.vim
 
 " lua files
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

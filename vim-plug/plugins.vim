@@ -43,16 +43,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      " explorer
      Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} "ranger
      Plug 'kyazdani42/nvim-tree.lua'
-     
      " telescop
      Plug 'nvim-lua/popup.nvim'
      Plug 'nvim-lua/plenary.nvim'
      Plug 'nvim-telescope/telescope.nvim'
          
      " fzf
-     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-     Plug 'junegunn/fzf.vim'
-     Plug 'airblade/vim-rooter'
+     " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+     " Plug 'junegunn/fzf.vim'
+     " Plug 'airblade/vim-rooter'
  
      " markdown 
      Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
@@ -62,5 +61,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      Plug 'tpope/vim-fugitive'
      Plug 'tpope/vim-rhubarb'
      Plug 'junegunn/gv.vim'
+
+     " dashboard
+     Plug 'mhinz/vim-startify'
  
 call plug#end()
