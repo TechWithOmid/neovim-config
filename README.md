@@ -182,9 +182,6 @@ more information about [markdown-preview plugin](https://github.com/iamcco/markd
 ---
 
 ### FZF
-fore use fzf in your neovim config first you need to uncomment the fzf config file and plugin in configs.
-first uncomment fzf part in plugin file then uncomment fzf config in explorer part of init.vim
-
 FZF is awesome tool for use inside neovim and It's much much more faster than ranger and coc-explorer. here is shortcuts and fzf commands.
 
 * use `leader-f` to open `:Files` where you can search for your files.

@@ -50,9 +50,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      Plug 'nvim-telescope/telescope.nvim'
          
      " fzf
-     " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-     " Plug 'junegunn/fzf.vim'
-     " Plug 'airblade/vim-rooter'
+     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+     Plug 'junegunn/fzf.vim'
+     Plug 'airblade/vim-rooter'
  
      " markdown 
      Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
