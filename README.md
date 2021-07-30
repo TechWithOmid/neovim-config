@@ -254,6 +254,13 @@ find live greps use `leader` + `fg` or `:Telescope live_grep`
 find buffers use `leader` + `fb` or `:Telescope buffers`
 hlp tags use `leader` + `fh` or `:Telescope help_tags`
 
+---
+
+### vim-maximizer
+Maximizes and restores the current window in Vim.
+
+use `Ctrl` `f` or `:MaximizerToggle`
+
 ## TODO
 - [ ] make the shortcuts guide cleaner 
 - [ ] create bash script to automate the installation
