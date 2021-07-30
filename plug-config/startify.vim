@@ -9,9 +9,10 @@ let g:startify_lists = [
 
 let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
-            \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 'n': '~/.config/nvim/init.vim' },
+            \ { 'p': '~/.config/picom/picom.conf' },
             \ { 'z': '~/.zshrc' },
-            \ '~/Dev',
+            \ { 'd': '~/Dev' },
             \ ]
 
 

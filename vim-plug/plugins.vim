@@ -8,61 +8,64 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-     " Better Syntax Support
-     " Plug 'sheerun/vim-polyglot'
+     " BETTER SYNTAX SUPPORT
      Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}    
 
-     " Auto pairs for '(' '[' '{'
+     " AUTO PAIRS FOR '(' '[' '{'
      Plug 'jiangmiao/auto-pairs'
      Plug 'junegunn/rainbow_parentheses.vim'
 
-     " add color to hex&rgb
+     " ADD COLOR TO HEX&RGB
      Plug 'norcalli/nvim-colorizer.lua'
      
-     " theme
+     " THEMES
      Plug 'joshdick/onedark.vim'
      Plug 'morhetz/gruvbox'    
      Plug 'Mofiqul/vscode.nvim'
      Plug 'shaunsingh/nord.nvim'
      
-     " status bar 
+     " STATUS BAR 
      Plug 'vim-airline/vim-airline'
      Plug 'vim-airline/vim-airline-themes'
 
-     " icons
+     " ICONS
      Plug 'kyazdani42/nvim-web-devicons'
      Plug 'ryanoasis/vim-devicons'
 
-     " intellisense
+     " INTELLISENSE
      Plug 'neovim/nvim-lspconfig'
      Plug 'hrsh7th/nvim-compe'
 
-     " emmet
+     " EMMET
      Plug 'mattn/emmet-vim' 
 
-     " explorer
+     " EXPLORER
      Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} "ranger
      Plug 'kyazdani42/nvim-tree.lua'
-     " telescop
+     
+     " TELESCOPE
      Plug 'nvim-lua/popup.nvim'
      Plug 'nvim-lua/plenary.nvim'
      Plug 'nvim-telescope/telescope.nvim'
          
-     " fzf
+     " FZF
      " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
      " Plug 'junegunn/fzf.vim'
      " Plug 'airblade/vim-rooter'
  
-     " markdown 
+     " MARKDOWN 
      Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
-     " git integration
+     " GIT INTEGRATION
      Plug 'mhinz/vim-signify'
      Plug 'tpope/vim-fugitive'
      Plug 'tpope/vim-rhubarb'
      Plug 'junegunn/gv.vim'
 
-     " dashboard
+     " DEBUGGER
+     Plug 'szw/vim-maximizer'
+       
+     " DASHBOARD
      Plug 'mhinz/vim-startify'
  
 call plug#end()
