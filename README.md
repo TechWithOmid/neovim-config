@@ -257,6 +257,22 @@ find buffers use `leader` `fb` or `:Telescope buffers`
 
 help tags use `leader` `fh` or `:Telescope help_tags`
 
+also this is some useful shortcut for use with telescope preview
+
+| Mappings       | Action                           |
+|----------------|----------------------------------|
+| `<C-n>/<Down>` | Next item                        |
+| `<C-p>/<Up>`   | Previous item                    |
+| `j/k`          | Next/previous (in normal mode)   |
+| `<cr>`         | Confirm selection                |
+| `<C-x>`        | go to file selection as a split  |
+| `<C-v>`        | go to file selection as a vsplit |
+| `<C-t>`        | go to a file in a new tab        |
+| `<C-u>`        | scroll up in preview window      |
+| `<C-d>`        | scroll down in preview window    |
+| `<C-c>`        | close telescope                  |
+| `<Esc>`        | close telescope (in normal mode) |
+
 ---
 
 ### vim-maximizer
