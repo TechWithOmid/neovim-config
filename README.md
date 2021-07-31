@@ -104,19 +104,19 @@ set show_hidden true
     ```
 
 ## general shortcuts
-Use alt + hjkl to resize windows
+Use `alt` + hjkl to resize windows
 
-Use ctrl + hjkl to navigate windows
+Use `ctrl` + hjkl to navigate windows
 
-user ctrl+u over word for make it Uppercase
+user `ctrl` `u` over word for make it Uppercase
 
 TAB in general mode will move to next buffer SHIFT-TAB will go back
 
 alternative save&quit :
-   - Use ctrl+s => save (:w) 
-   - ctrl+Q save and quite(:wq!)
+   - Use  `ctrl` `s` => save (:w) 
+   - `ctrl` `Q` save and quite(:wq!)
 
-Use control-c instead of escape
+Use `ctrl` `c` instead of escape
 
 
 ## Extenction config
@@ -133,9 +133,9 @@ Recently I switch lsp over coc, and here is some shortcuts and configuration of 
 
 `K`   Hover and show more additional information.
 
-`C-n` go to next diagnostic.
+`ctrl` `n` go to next diagnostic.
 
-`C-p` go to previous diagnostic.
+`ctrl` `p` go to previous diagnostic.
 
 also auto formate is active for '.py' '.js' '.jsx' files
 
@@ -174,7 +174,7 @@ also if you want more information check this [link](https://github.com/mattn/emm
 ### MarkdownPreview
 I use markdown-preview plugin for preview markdown in neovim and it's work really well.
 
-use `:MarkdownPreview` or `Space-p` to see the preview in your default browser.
+use `:MarkdownPreview` or `leader` `p` to see the preview in your default browser.
 
 more information about [markdown-preview plugin](https://github.com/iamcco/markdown-preview.nvim
 ).
@@ -184,16 +184,16 @@ more information about [markdown-preview plugin](https://github.com/iamcco/markd
 ### FZF
 FZF is awesome tool for use inside neovim and It's much much more faster than ranger and coc-explorer. here is shortcuts and fzf commands.
 
-* use `leader-f` to open `:Files` where you can search for your files.
-* `leader-b` or `:Buffers` for search in your open buffer.
-* `leader-g` or `:Rg` search for mach result in files content and file name.
-* `leader-t` or `:Tags` search for Tags
-* `leader-m` or `:Marks` search for marks
+* use `leader` `f` to open `:Files` where you can search for your files.
+* `leader` `b` or `:Buffers` for search in your open buffer.
+* `leader` `g` or `:Rg` search for mach result in files content and file name.
+* `leader` `t` or `:Tags` search for Tags
+* `leader` `m` or `:Marks` search for marks
 
 also you can open files in split or new tab.
-* tab split : `ctrl-t`
-* split     : `ctrl-x`
-* vsplit    : `ctrl-v`
+* tab split : `ctrl` `t`
+* split     : `ctrl` `x`
+* vsplit    : `ctrl` `v`
 
 ---
 
@@ -249,10 +249,13 @@ telescope.nvim is a highly extendable fuzzy finder over lists. Built on the late
 
 here is here is shortcuts I use. but you can see the telescope docs [here](https://github.com/nvim-telescope/telescope.nvim)
 
-find files use `leader` + `ff` or `:Telescope find_file`
-find live greps use `leader` + `fg` or `:Telescope live_grep`
-find buffers use `leader` + `fb` or `:Telescope buffers`
-hlp tags use `leader` + `fh` or `:Telescope help_tags`
+find files use `leader` `f` or `:Telescope find_file`
+
+find live greps use `leader` `fg` or `:Telescope live_grep`
+
+find buffers use `leader` `fb` or `:Telescope buffers`
+
+help tags use `leader` `fh` or `:Telescope help_tags`
 
 ---
 
