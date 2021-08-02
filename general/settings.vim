@@ -44,5 +44,8 @@ autocmd FileType xml,html inoremap </ </<C-x><C-o>
 " html autoclose tag
 autocmd FileType xml,html inoremap </ </<C-x><C-o>
 
+" remove line number in neovim terminal
+autocmd TermOpen * setlocal nonumber norelativenumber
+
 " You can't stop me
 cmap w!! w !sudo tee %
