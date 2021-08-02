@@ -108,7 +108,9 @@ Use `alt` + hjkl to resize windows
 
 Use `ctrl` + hjkl to navigate windows
 
-user `ctrl` `u` over word for make it Uppercase
+Use `ctrl` `u` over word for make it Uppercase
+
+You can execute python, sh, Javascript code in neovim with `leader` `r`
 
 TAB in general mode will move to next buffer SHIFT-TAB will go back
 
