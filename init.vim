@@ -1,3 +1,11 @@
+"                           _   __         _    ___         
+"                          / | / /__  ____| |  / (_)___ ___ 
+"                         /  |/ / _ \/ __ \ | / / / __ `__ \
+"                        / /|  /  __/ /_/ / |/ / / / / / / /
+"                       /_/ |_/\___/\____/|___/_/_/ /_/ /_/ 
+" 
+
+
 " GENERAL
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/keys/mappings.vim
