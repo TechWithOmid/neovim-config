@@ -23,7 +23,7 @@ source $HOME/.config/nvim/plug-config/lsp-config.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 
 " FINDER 
-source $HOME/.config/nvim/plug-config/rnvimr.vim
+" source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
 source $HOME/.config/nvim/plug-config/telescop.vim
 " source $HOME/.config/nvim/plug-config/fzf.vim

@@ -40,7 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      Plug 'mattn/emmet-vim' 
 
      " EXPLORER
-     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} "ranger
+     " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} "ranger
      Plug 'kyazdani42/nvim-tree.lua'
      
      " TELESCOPE
