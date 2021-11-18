@@ -1,4 +1,7 @@
 # neovim config guide
+![](gifs/neovim-config.png)
+[dotfiles](https://github.com/techwithomid/dotfiles)
+
 this is my neovim config for Python/Django and Javascript development.
 
 you can install this config file by cloning the repo and installing the dependency (you can see it in Installation part).
