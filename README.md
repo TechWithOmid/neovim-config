@@ -12,7 +12,7 @@ also you can see shortcuts and plugin config after Installation part.
 ## Script
 clone the repo
 ```bash
-git clone https://github.com/techwithomid/
+git clone https://github.com/techwithomid/neovim-conf
 ```
 and run the installation script using this command
 ```bash
