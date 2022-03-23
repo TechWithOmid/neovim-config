@@ -9,6 +9,20 @@ you can install this config file by cloning the repo and installing the dependen
 also you can see shortcuts and plugin config after Installation part.
 
 ## Installation
+## Script
+clone the repo
+```bash
+git clone https://github.com/techwithomid/
+```
+and run the installation script using this command
+```bash
+chmod +x installation-script.sh
+./installation-scirpt.sh
+```
+note: this installation script work only with arch based distros
+
+
+## Manual
 1. neovim
     - ubuntu:
         ```bash 
