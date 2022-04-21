@@ -43,6 +43,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
       " EXPLORER
       Plug 'kyazdani42/nvim-tree.lua'
  
+     " TMux - Vim integration
+     Plug 'christoomey/vim-tmux-navigator'
+      
      " TELESCOPE
       Plug 'nvim-lua/popup.nvim'
       Plug 'nvim-lua/plenary.nvim'
@@ -50,7 +53,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
           
       " MARKDOWN 
       Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
- 
+
       " GIT INTEGRATION
       Plug 'mhinz/vim-signify'
       Plug 'tpope/vim-fugitive'
