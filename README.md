@@ -301,7 +301,7 @@ use `Ctrl` `f` or `:MaximizerToggle`
 
 ## TODO
 - [ ] make the shortcuts guide cleaner 
-- [ ] create bash script to automate the installation
+- [x] create bash script to automate the installation
 - [x] add git integration
 - [x] fix signify conflit with line number
 - [x] add more information about emmet plugin
