@@ -23,8 +23,6 @@ source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/telescop.vim
 source $HOME/.config/nvim/plug-config/nvim-tree-config.vim
 
-
-
 " GIT INTEGRATION
 source $HOME/.config/nvim/plug-config/signify.vim
 

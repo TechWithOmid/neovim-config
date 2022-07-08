@@ -44,29 +44,30 @@ let g:nvim_tree_show_icons = {
 
 " default will show icon by default if no icon is provided
 " default shows no icon by default
-let g:nvim_tree_icons = {
-    \ 'default': '',
-    \ 'symlink': '',
-    \ 'git': {
-    \   'unstaged': "✗",
-    \   'staged': "✓",
-    \   'unmerged': "",
-    \   'renamed': "➜",
-    \   'untracked': "★",
-    \   'deleted': "",
-    \   'ignored': "◌"
-    \   },
-    \ 'folder': {
-    \   'arrow_open': "",
-    \   'arrow_closed': "",
-    \   'default': "",
-    \   'open': "",
-    \   'empty': "",
-    \   'empty_open': "",
-    \   'symlink': "",
-    \   'symlink_open': "",
-    \   }
-    \ }
+
+"let g:nvim_tree_icons = {
+"    \ 'default': '',
+"    \ 'symlink': '',
+"    \ 'git': {
+"    \   'unstaged': "✗",
+"    \   'staged': "✓",
+"    \   'unmerged': "",
+"    \   'renamed': "➜",
+"    \   'untracked': "★",
+"    \   'deleted': "",
+"    \   'ignored': "◌"
+"    \   },
+"    \ 'folder': {
+"    \   'arrow_open': "",
+"    \   'arrow_closed': "",
+"    \   'default': "",
+"    \   'open': "",
+"    \   'empty': "",
+"    \   'empty_open': "",
+"    \   'symlink': "",
+"    \   'symlink_open': "",
+"    \   }
+"    \ }
 
 nnoremap <leader>e :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
@@ -75,5 +76,5 @@ nnoremap <leader>r :NvimTreeRefresh<CR>
 set termguicolors " this variable must be enabled for colors to be applied properly
 
 " a list of groups can be found at `:help nvim_tree_highlight`
-highlight NvimTreeFolderIcon guibg=blue
+" highlight NvimTreeFolderIcon guibg=blue
 

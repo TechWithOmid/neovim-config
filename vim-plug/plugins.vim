@@ -41,8 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
       Plug 'mattn/emmet-vim' 
  
       " EXPLORER
-      Plug 'kyazdani42/nvim-tree.lua'
- 
+     Plug 'kyazdani42/nvim-tree.lua'
+      
      " TMux - Vim integration
      Plug 'christoomey/vim-tmux-navigator'
       
