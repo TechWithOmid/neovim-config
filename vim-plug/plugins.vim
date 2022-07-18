@@ -24,6 +24,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
       Plug 'Mofiqul/vscode.nvim'
       Plug 'shaunsingh/nord.nvim'
       Plug 'shaunsingh/solarized.nvim'
+
+      " INDENTATION GUIDE
+      Plug 'Yggdroot/indentLine'
       
       " STATUS BAR 
       Plug 'vim-airline/vim-airline'
