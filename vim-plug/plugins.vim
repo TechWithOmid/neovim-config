@@ -39,6 +39,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
       " INTELLISENSE
       Plug 'neovim/nvim-lspconfig'
       Plug 'hrsh7th/nvim-compe'
+      Plug 'jose-elias-alvarez/null-ls.nvim' " formate
  
       " EMMET
       Plug 'mattn/emmet-vim' 

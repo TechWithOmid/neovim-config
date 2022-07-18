@@ -28,7 +28,7 @@ source $HOME/.config/nvim/plug-config/signify.vim
 
 " OTHER
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
-source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
+source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim " formate
 source $HOME/.config/nvim/plug-config/vim-maximizer.vim
 
 " LUA FILES
@@ -40,4 +40,5 @@ luafile $HOME/.config/nvim/lua/compe-config.lua
 luafile $HOME/.config/nvim/lua/lsp-lang/python-ls.lua
 luafile $HOME/.config/nvim/lua/lsp-lang/javascript-ls.lua
 luafile $HOME/.config/nvim/lua/lsp-lang/bash-ls.lua
+luafile $HOME/.config/nvim/lua/null-ls-config.lua
 

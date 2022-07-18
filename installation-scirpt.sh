@@ -38,6 +38,9 @@ npm i -g typescript typescript-language-server
 npm i -g bash-language-server
 npm i -g pyright
 
+# Setup formatting
+sudo pacman -S prettier eslint python-isort
+
 # Install plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
