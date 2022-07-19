@@ -300,7 +300,7 @@ Maximizes and restores the current window in Vim.
 use `Ctrl` `f` or `:MaximizerToggle`
 
 ## TODO
-- [ ] make the shortcuts guide cleaner 
+- [ ] switch to lua config
 - [x] create bash script to automate the installation
 - [x] add git integration
 - [x] fix signify conflit with line number
