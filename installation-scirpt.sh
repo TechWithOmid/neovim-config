@@ -39,7 +39,16 @@ npm i -g bash-language-server
 npm i -g pyright
 
 # Setup formatting
-sudo pacman -S prettier eslint python-isort
+# -------------------------
+# DESCRIPTION:
+# prettierd to format file types of javascript, javascriptreact, typescript, typescriptreact, vue, css, scss, less, html, json, yaml, markdown, and graphql.
+# shfmt to format shell scripts.
+# fixjson to format JSON files.
+# black and isort to format and sort Python code.
+# stylua to format Lua code.
+yay -S prettierd shfmt python-black python-isort
+npm install -g fixjson
+
 
 # Install plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

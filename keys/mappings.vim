@@ -39,5 +39,8 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
+" Formate the code
+nnoremap <Leader>f lua vim.lsp.buf.formatting_sync()<CR>
+
 " Auto scroll with cursor line in middle of screen
 nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
