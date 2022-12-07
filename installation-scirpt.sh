@@ -61,3 +61,6 @@ else
     git clone https://github.com/TechWithOmid/neovim-conf.git ~/.config/nvim
 fi
 
+# Install the plugins using PlugInstall
+nvim +'PlugInstall --sync' +qa
+
